@@ -83,7 +83,7 @@ Commençons par un document vide appelé ``main.qml``. Tous les fichiers QML doi
 Vu que QML ne fait aucune restriction sur le type d'élément utilisé en tant qu'élément racine, nous utilisons un élément ``Image`` comme élément racine avec la propriété source défini à notre image d'arrière plan.
 
 
-.. image:: ./../en/ch01/src/showcase/images/background.png
+.. image:: ../../en/ch01/src/showcase/images/background.png
 
 
 .. note::
@@ -96,8 +96,8 @@ Vu que QML ne fait aucune restriction sur le type d'élément utilisé en tant q
 
 Les éléments en premier plan, le mât et la roue à picots, de notre interface utilisateur sont dans des images distinctes.
 
-.. image:: ./../en/ch01/src/showcase/images/pole.png
-.. image:: ./../en/ch01/src/showcase/images/pinwheel.png
+.. image:: ../../en/ch01/src/showcase/images/pole.png
+.. image:: ../../en/ch01/src/showcase/images/pinwheel.png
 
 Le mât sera placé au centre horizontal de l'arrière plan vers le bas. Et la roue à picots pourra être placé au centre de notre arrière plan.
 
@@ -183,7 +183,7 @@ A présent, la roue tournera, mais ce n'est toujours pas aussi fluide. La propri
 
 A présent, lorsque la rotation de la roue changera, il sera animé en utilisant un ``NumberAnimation`` avec une durée de 250 ms. Donc chaque tour de 90 dégrés durera 250 ms.
 
-.. image:: ./../en/ch01/assets/scene2.png
+.. image:: ../../en/ch01/assets/scene2.png
     :scale: 50%
 
 .. note:: Vous ne verez pas la roue devenir floue. L'image précédente indique juste la rotation. Mais il y a une image d'une roue floue dans le dossier assets. Peut être voudriez vous l'essayer.
